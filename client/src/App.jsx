@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { Calendar, MapPin, Users, Plus, Search, Trash2, CheckCircle, Eye, UserCheck } from 'lucide-react';
 
-const API_URL = 'http://localhost:5000/api/events';
+const API_URL = 'https://college-event-backend-three.vercel.app/api/events';
 
 export default function App() {
   const [events, setEvents] = useState([]);
